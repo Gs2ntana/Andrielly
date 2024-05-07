@@ -1,0 +1,32 @@
+/* Esitlo Cabeçalho */
+header{
+    padding: 40px 4%;
+}
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header a{
+    color: #5f5f5f;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+header a:hover{
+    color: #000;
+    transform: scale(1.05);
+}
+header nav ul{
+    list-style: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0px 40px;
+}
+
+.LogoGsantana{
+    width: 120px;
+    height: auto;
+}
